@@ -17,22 +17,23 @@
     </ul>
 </nav>
 
-<div class="contact-form">
+<form>
     <h2>Contáctanos</h2>
-    <form action="enviar_mensaje.php" method="post">
+  <div class="input-group">
       <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" name="name" id="name" placeholder="Nombre" >
 
       <label for="Telefono">Telefono:</label>
-      <input type="Telefono" id="Telefono" name="Telefono" required>
+      <input type="text" name="phone" id="phone" placeholder="Telefono" >
      
       <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required>
+      <input type="text" name="email" id="email" placeholder="E-Mail" >
 
       <label for="message">Mensaje:</label>
-      <textarea id="message" name="message" required></textarea>
+     <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
 
-      <button type="submit">Enviar</button>
+    <input class="btn" type="submit" value"Enviar">
+    
     </form>
   </div>
 
