@@ -57,22 +57,4 @@ nav ul li a {
     color: #ffcc00;
     display: inline-block;
 
-@media(max-width:991px) {
 
- body {
-  padding: 30px;
- }
-
-form {
- padding: 50px 30px;
- width: 100%;
-}
-
-input {
- padding: 15px;
-}    
-    
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
